@@ -1,0 +1,16 @@
+# Python build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+setup.py.backup
+pyproject.toml.backup
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

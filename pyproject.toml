@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-resume-parser"
+version = "1.0.2"
+description = "AI-powered resume parser with parallel processing capabilities"
+authors = [{name = "Ruthik Reddy", email = "ruthikr369@gmail.com"}]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["resume parsing", "AI", "NLP", "parallel processing", "recruitment", "HR", "LLM"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+dependencies = [
+    "pydantic>=2.0.0",
+    "langchain-core>=0.1.0",
+    "python-dateutil>=2.8.0",
+    "pdfminer.six>=20221105",
+    "python-docx>=0.8.11",
+    "PyMuPDF>=1.23.0",
+    "phonenumbers>=8.13.0",
+    "email-validator>=2.2.0"
+]
+
+[project.optional-dependencies]
+full = []
+dev = ["pytest>=7.0.0", "black>=22.0.0", "flake8>=4.0.0", "mypy>=0.950"]
+
+[project.urls]
+Homepage = "https://github.com/Ruthikr"
+Repository = "https://github.com/Ruthikr/resumeparser-pro"
+Documentation = "https://github.com/Ruthikr/resumeparser-pro/docs"
+Issues = "https://github.com/Ruthikr/resumeparser-pro/issues"
