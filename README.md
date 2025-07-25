@@ -46,11 +46,11 @@ print(f"Experience: {result.resume_data.total_experience_months} months")
 ### Example Parsed Resume data
 
 ```python
-{'file_path': '/content/Stockholm-Resume-Template-Simple.pdf',
+{'file_path': 'resume.pdf',
  'success': True,
  'resume_data': {'contact_info': {'full_name': 'Jason Miller',
    'email': 'email@email.com',
-   'phone': '+13868683442',
+   'phone': '+1386862',
    'location': 'Los Angeles, CA 90291, United States',
    'linkedin': 'https://www.linkedin.com/in/jason-miller',
    'github': None,
@@ -126,7 +126,7 @@ print(f"Experience: {result.resume_data.total_experience_months} months")
   'industry': 'Logistics & Supply Chain',
   'seniority_level': 'Mid-level'},
  'error_message': None,
- 'parsing_time_seconds': 18.71349,
+ 'parsing_time_seconds': 3.71349,
  'timestamp': '2025-07-25T15:19:50.614831'}
 ```
 
@@ -231,7 +231,7 @@ api_key="your-aws-credentials"
 
 ## 📈 Performance
 
-- **Speed**: ~5-10 seconds per resume (based on th llm used)
+- **Speed**: ~3-5 seconds per resume (based on th llm used)
 - **Parallel Processing**: 5-10x faster for batch operations
 - **Accuracy**: 95%+ field extraction accuracy
 - **File Support**: PDF, DOCX, TXT formats
