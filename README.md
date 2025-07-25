@@ -44,7 +44,7 @@ print(f"Name: {result.resume_data.contact_info.full_name}")
 print(f"Experience: {result.resume_data.total_experience_months} months")
 ```
 #Example Parsed Resume data
-```json 
+```python
 {'file_path': '/content/Stockholm-Resume-Template-Simple.pdf',
  'success': True,
  'resume_data': {'contact_info': {'full_name': 'Jason Miller',
