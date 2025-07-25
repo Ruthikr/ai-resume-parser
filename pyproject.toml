@@ -41,6 +41,6 @@ dev = ["pytest>=7.0.0", "black>=22.0.0", "flake8>=4.0.0", "mypy>=0.950"]
 
 [project.urls]
 Homepage = "https://github.com/Ruthikr"
-Repository = "https://github.com/Ruthikr/resumeparser-pro"
-Documentation = "https://github.com/Ruthikr/resumeparser-pro/docs"
-Issues = "https://github.com/Ruthikr/resumeparser-pro/issues"
+Repository = "https://github.com/Ruthikr/ai-resume-parser"
+Documentation = "https://github.com/Ruthikr/ai-resume-parser/tree/main/docs"
+Issues = "https://github.com/Ruthikr/ai-resume-parser/issues"

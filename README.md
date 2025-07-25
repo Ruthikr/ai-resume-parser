@@ -1,7 +1,7 @@
 # ResumeParser Pro 🚀
 
-[![PyPI version](https://badge.fury.io/py/resumeparser-pro.svg)](https://badge.fury.io/py/resumeparser-pro)
-[![Python Support](https://img.shields.io/pypi/pyversions/resumeparser-pro.svg)](https://pypi.org/project/resumeparser-pro/)
+[![PyPI version](https://badge.fury.io/py/ai-resume-parser.svg)](https://badge.fury.io/py/resumeparser-pro)
+[![Python Support](https://img.shields.io/pypi/pyversions/ai-resume-parser.svg)](https://pypi.org/project/resumeparser-pro/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Production-ready AI-powered resume parser with parallel processing capabilities. Extract structured data from resumes in PDF, DOCX, and TXT formats using state-of-the-art language models.
@@ -189,9 +189,9 @@ MIT License - see LICENSE file for details.
 
 ## 🆘 Support
 
-- 📖 [Documentation](https://github.com/yourusername/resumeparser-pro/docs)
-- 🐛 [Issue Tracker](https://github.com/yourusername/resumeparser-pro/issues)
-- 💬 [Discussions](https://github.com/yourusername/resumeparser-pro/discussions)
+- 📖 [Documentation](https://github.com/Ruthikr/ai-resume-parser/docs)
+- 🐛 [Issue Tracker](https://github.com/Ruthikr/ai-resume-parser/issues)
+- 💬 [Discussions](https://github.com/Ruthikr/ai-resume-parser/discussions)
 
 ---
 
