@@ -43,7 +43,8 @@ result = parser.parse_resume("resume.pdf")
 print(f"Name: {result.resume_data.contact_info.full_name}")
 print(f"Experience: {result.resume_data.total_experience_months} months")
 ```
-#Example Parsed Resume data
+### Example Parsed Resume data
+
 ```python
 {'file_path': '/content/Stockholm-Resume-Template-Simple.pdf',
  'success': True,
