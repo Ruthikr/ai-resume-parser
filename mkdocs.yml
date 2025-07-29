@@ -1,14 +1,14 @@
 # mkdocs.yml
+site_url: https://ruthikr.github.io/ai-resume-parser/
 
 site_name: ResumeParser Pro
-site_url: https://Ruthikr.github.io/ai-resume-parser/
 repo_url: https://github.com/Ruthikr/ai-resume-parser
 repo_name: Ruthikr/ai-resume-parser
 
 theme:
   name: material
-  logo: assets/logo.png  # Optional: Add a logo image in docs/assets/
-  favicon: assets/logo.png # Optional
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     # Palette toggle for light vs dark mode
     - scheme: default
@@ -28,7 +28,6 @@ theme:
     - content.code.copy
     - content.code.annotate
 
-# This tells MkDocs where to find your documentation files
 nav:
   - 'Home': 'index.md'
   - 'Installation': 'installation.md'
