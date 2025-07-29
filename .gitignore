@@ -1,16 +1,77 @@
-# Python build
-__pycache__/
-*.py[cod]
-*.egg-info/
-build/
-dist/
 setup.py.backup
 pyproject.toml.backup
 
-# VS Code / IDEs
-.vscode/
+# --- Python build artifacts and caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Distribution / packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+eggs/
+sdist/
+wheels/
+pip-wheel-metadata/
+
+# --- Virtual Environments ---
+# Exclude all virtual environment folders.
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Testing & Type Checking ---
+# Pytest cache and reports
+.pytest_cache/
+pytestdebug.log
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# --- Documentation ---
+# MkDocs build directory.
+# The live site is built by GitHub Actions, so this folder should not be in the repo.
+site/
+
+# --- IDE / Editor Configuration ---
+# JetBrains (PyCharm, IntelliJ)
 .idea/
 
-# OS files
+# Visual Studio Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# --- OS-specific files ---
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Sensitive Data & Logs ---
+# Ignore environment variable files (which should contain your API keys)
+.env*
+# But DO commit an example file to show what variables are needed.
+!/.env.example
+
+# Log files
+*.log
+*.log.*

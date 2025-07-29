@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ai-resume-parser"
-version = "1.0.3"
-description = "AI-powered resume parser with parallel processing capabilities"
+version = "1.0.6" # Version bumped to reflect the fix
+description = "AI-powered resume parser with parallel processing for multiple file formats (PDF, DOCX, images, etc.)"
 authors = [{name = "Ruthik Reddy", email = "ruthikr369@gmail.com"}]
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.8"
-keywords = ["resume parsing", "AI", "NLP", "parallel processing", "recruitment", "HR", "LLM", "resume", "parser", "Gemini", "Google GenAI", "OpenAI", "job"]
+keywords = ["resume parsing", "AI", "NLP", "OCR", "parallel processing", "recruitment", "HR", "LLM", "resume", "parser", "Gemini", "OpenAI", "job"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -35,8 +35,18 @@ dependencies = [
     "email-validator>=2.2.0"
 ]
 
+
 [project.optional-dependencies]
-full = []
+ocr = ["pytesseract>=0.3.10", "Pillow>=9.0.0"]
+html = ["beautifulsoup4>=4.11.1"]
+odt = ["odfpy>=1.4.1"]
+
+full = [
+    "pytesseract>=0.3.10", 
+    "Pillow>=9.0.0",
+    "beautifulsoup4>=4.11.1",
+    "odfpy>=1.4.1"
+]
 dev = ["pytest>=7.0.0", "black>=22.0.0", "flake8>=4.0.0", "mypy>=0.950"]
 
 [project.urls]
