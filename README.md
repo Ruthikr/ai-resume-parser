@@ -1,7 +1,7 @@
 # ResumeParser Pro 🚀
 
-[![PyPI version](https://badge.fury.io/py/ai-resume-parser.svg)](https://badge.fury.io/py/resumeparser-pro)
-[![Python Support](https://img.shields.io/pypi/pyversions/ai-resume-parser.svg)](https://pypi.org/project/resumeparser-pro/)
+[![PyPI version](https://badge.fury.io/py/ai-resume-parser.svg)](https://pypi.org/project/ai-resume-parser/1.0.6/)
+[![Python Support](https://img.shields.io/pypi/pyversions/ai-resume-parser.svg)](https://pypi.org/project/ai-resume-parser/1.0.6/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Production-ready AI-powered resume parser with parallel processing capabilities. Extract structured data from resumes in **PDF, DOCX, TXT, images (PNG, JPG), HTML, and ODT** formats using state-of-the-art language models.
