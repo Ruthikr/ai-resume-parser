@@ -7,7 +7,7 @@ repo_name: Ruthikr/ai-resume-parser
 
 theme:
   name: material
-  logo: assets/logo.png  # Optional: Add a logo image in docs/assets/
+  logo: assets/logo.png  
   favicon: assets/logo.png # Optional
   palette:
     # Palette toggle for light vs dark mode
@@ -28,7 +28,6 @@ theme:
     - content.code.copy
     - content.code.annotate
 
-# This tells MkDocs where to find your documentation files
 nav:
   - 'Home': 'index.md'
   - 'Installation': 'installation.md'
