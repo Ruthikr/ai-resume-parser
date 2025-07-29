@@ -9,6 +9,7 @@ theme:
   name: material
   logo: assets/logo.png
   favicon: assets/logo.png
+
   palette:
     # Palette toggle for light vs dark mode
     - scheme: default
